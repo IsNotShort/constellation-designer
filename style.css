@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  overflow: hidden;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  z-index: 10;
+}
+
+.bg {
+  background-color: black;
+}
+
+.hoverabout {
+  position: absolute;
+  left: 90%;
+  top: 20px;
+  display: block;
+}
+
+.aboutcontent {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  z-index: 10;
+}
+
+.aboutcontent h5,h4 {
+  padding: 10px 12px;
+}
+
+.hoverabout:hover .aboutcontent {
+  display: block;
+}
+
+#canvas {
+  width: 100%;
+  height: 100%;
+}
